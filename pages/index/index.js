@@ -9,7 +9,12 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     canIUseGetUserProfile: false,
-    canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName') // 如需尝试获取用户信息可改为false
+    canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName'), // 如需尝试获取用户信息可改为false
+    tools: [
+        {name: "吃什么", url: "/pages/WhatToEat/WhatToEat"},
+        {name: "占位", url: "/pages/WhatToEat/WhatToEat"},
+        {name: "占位", url: "/pages/WhatToEat/WhatToEat"}
+    ]
   },
   // 事件处理函数
   bindViewTap() {

@@ -3,21 +3,20 @@
 <view class="main_box">
     <view class="res" id="res">
         <text class="res_food">
-            <text class="food">12345678901234567890</text>
-            <text class="num">12345</text>
+            <text class="food">{{res_food}}</text>
+            <text class="num">{{num}}</text>
         </text>
-        <button class="res_btn">吃什么</button>
+        <button class="res_btn" bindtap="resFood">吃什么</button>
     </view>
     <view class="hr"></view>
     <view class="foods" id="foods">
-        <input type="text" class="add_food" placeholder="请输入需添加的食物"/>
-        <button class="add_btn">添加</button>
+        <input type="text" class="add_food" id="add_food" placeholder="请输入需添加的食物" model:value="{{add_food}}" bindblur="getValue"/>
+        <button class="add_btn" bindtap="addFood">添加</button>
         <view class="list_foods">
-            <text class="li_food"><text class="f">KFC</text><text class="del">×</text></text>
-            <text class="li_food"><text class="f">剁椒鱼头</text><text class="del">×</text></text>
-            <text class="li_food"><text class="f">麦当劳</text><text class="del">×</text></text>
-            <text class="li_food"><text class="f">一番寿司</text><text class="del">×</text></text>
-            <text class="li_food"><text class="f">匠子烤鱼</text><text class="del">×</text></text>
+            <view class="li_food" wx:for="{{foods}}" wx:key="id">
+                <text class="f">{{item}}</text>
+                <text class="del" id="{{item}}" bindtap="delFood" data-item="{{item}}">×</text>
+            </view>
         </view>
     </view>
 </view>

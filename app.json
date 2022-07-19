@@ -1,14 +1,22 @@
 {
     "pages":[
         "pages/index/index",
+        "pages/about/about",
         "pages/WhatToEat/WhatToEat",
         "pages/logs/logs"
     ],
     "window":{
         "backgroundTextStyle":"light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "Weixin",
+        "navigationBarBackgroundColor": "#149694",
+        "navigationBarTitleText": "EP小工具",
         "navigationBarTextStyle":"black"
+    },
+    "tabBar": {
+        "list": [
+            {"pagePath": "pages/index/index", "text": "首页", "iconPath": "images/tabs/home.png", "selectedIconPath": "images/tabs/home-active.png"},
+            {"pagePath": "pages/about/about", "text": "关于", "iconPath": "images/tabs/about.png", "selectedIconPath": "images/tabs/about-active.png"}
+        ],
+        "selectedColor": "#149694"
     },
     "style": "v2",
     "sitemapLocation": "sitemap.json"
