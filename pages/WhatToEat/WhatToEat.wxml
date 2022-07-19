@@ -1,0 +1,23 @@
+<!--pages/WhatToEat/WhatToEat.wxml-->
+<text class="header">这顿吃什么</text>
+<view class="main_box">
+    <view class="res" id="res">
+        <text class="res_food">
+            <text class="food">12345678901234567890</text>
+            <text class="num">12345</text>
+        </text>
+        <button class="res_btn">吃什么</button>
+    </view>
+    <view class="hr"></view>
+    <view class="foods" id="foods">
+        <input type="text" class="add_food" placeholder="请输入需添加的食物"/>
+        <button class="add_btn">添加</button>
+        <view class="list_foods">
+            <text class="li_food"><text class="f">KFC</text><text class="del">×</text></text>
+            <text class="li_food"><text class="f">剁椒鱼头</text><text class="del">×</text></text>
+            <text class="li_food"><text class="f">麦当劳</text><text class="del">×</text></text>
+            <text class="li_food"><text class="f">一番寿司</text><text class="del">×</text></text>
+            <text class="li_food"><text class="f">匠子烤鱼</text><text class="del">×</text></text>
+        </view>
+    </view>
+</view>

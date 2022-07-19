@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="header">EP小工具</view>
+    <view class="list_box">
+        <navigator url="/pages/WhatToEat/WhatToEat" class="box">吃什么</navigator>
+        <navigator url="/pages/WhatToEat/WhatToEat" class="box">NULL</navigator>
+    </view>
+</view>

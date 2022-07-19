@@ -1,0 +1,134 @@
+/* pages/WhatToEat/WhatToEat.wxss */
+page {
+    background-color: #f8f8f8;
+    /* background-color: pink; */
+}
+
+.header {
+    display: block;
+    width: 50vw;
+    height: 5vh;
+    padding: 4vh;
+    margin: 1vh auto;
+    font-size: 4vh;
+    font-weight: 700;
+    line-height: 5vh;
+    text-align: center;
+}
+
+.main_box {
+    width: 90%;
+    height: 400px;
+    margin: 2vh auto;
+    border-radius: 2vh;
+    box-shadow: 0 0 2vh .5vh rgba(0, 0, 0, .3);
+    background-color: #fff;
+}
+
+.main_box .hr {
+    float: left;
+    width: 94%;
+    margin: 0 3%;
+    border-top: 1px dashed #808080;
+}
+
+.main_box .res {
+    float: left;
+    width: 90%;
+    height: 6vh;
+    margin: 0 auto;
+    padding: 5%;
+    /* background-color: #fff; */
+}
+
+.main_box .foods {
+    float: left;
+    width: 90%;
+    /* height: 250px; */
+    padding: 5%;
+    /* background-color: skyblue; */
+}
+
+.main_box .res .res_food,
+.main_box .foods .add_food {
+    float: left;
+    width: 60%;
+    height: calc(6vh - 2px);
+    padding: 0 calc((10% - 1px) / 2);
+    line-height: 6vh;
+    background-color: #fff;
+    border: 1px solid #808080;
+    border-right: 0;
+    border-radius: 1.5vh 0 0 1.5vh;
+    box-shadow: .3vh 0 1vh .2vh rgba(0, 0, 0, .3);
+    font-size: 2.3vh;
+}
+
+.main_box .foods .add_food {
+    overflow: hidden;
+    /* background-color: slateblue; */
+}
+
+.main_box .res .res_food .food {
+    display: block;
+    float: left;
+    max-width: 80%;
+    overflow: hidden;
+}
+
+.main_box .res .res_food .num {
+    float: right;
+    max-width: 16%;
+    overflow: hidden;
+    margin-left: 4%;
+}
+
+.main_box .res .res_btn,
+.main_box .foods .add_btn {
+    float: right;
+    width: 30%;
+    height: 6vh;
+    padding: 0;
+    line-height: 6vh;
+    background-color: #eee;
+    border-radius: 0 1.5vh 1.5vh 0;
+    border: 1px solid #808080;
+    border-left: 0;
+    box-shadow: .7vh 0 1vh .2vh rgba(0, 0, 0, .3);
+    font-size: 2.3vh;
+}
+
+.main_box .foods .list_foods {
+    float: left;
+    width: 100%;
+    /* height: 200px; */
+    margin-top: 1.5vh;
+    background-color: peru;
+}
+
+.main_box .foods .li_food {
+    display: block;
+    float: left;
+    width: 40%;
+    height: 4.5vh;
+    margin: .5vh 5%;
+    font-size: 2.2vh;
+    line-height: 4.5vh;
+    text-align: center;
+    border-radius: 1vh;
+    background-color: #f0f0f0;
+}
+
+.main_box .foods .li_food .f {
+    display: block;
+    float: left;
+    width: 76%;
+    margin-left: 4%;
+}
+
+.main_box .foods .li_food .del {
+    display: block;
+    float: right;
+    width: 20%;
+    color: #999;
+}
