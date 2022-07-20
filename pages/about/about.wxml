@@ -1,2 +1,12 @@
 <!--pages/about/about.wxml-->
-<text>pages/about/about.wxml</text>
+<view class="header">
+    <view class="img">
+        <image src="/images/favicon.png" mode="widthFix"></image>
+    </view>
+    <view class="info">
+        <view class="li-box" wx:for="{{info}}" wx:key="id">
+            <text class="key">{{item.key}}</text>
+            <text class="val">{{item.val}}</text>
+        </view>
+    </view>
+</view>

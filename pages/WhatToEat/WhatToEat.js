@@ -5,7 +5,7 @@ Page({
      * 页面的初始数据
      */
     data: {
-        foods: ["KFC", "剁椒鱼头", "麦当劳", "一番寿司", "匠子烤鱼"],
+        foods: ["KFC", "麦当劳", "海底捞"],
         add_food: "",
         res_food: "",
         num: 0

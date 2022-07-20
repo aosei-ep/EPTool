@@ -1,1 +1,51 @@
 /* pages/about/about.wxss */
+.header {
+    width: 80vw;
+    height: 30vw;
+    padding: 5vw;
+    margin: 10vh auto;
+    background-color: #fff;
+    border-radius: 10vw;
+    box-shadow: 0 0 4vw 1.2vw rgba(0, 0, 0, .3);
+}
+
+.header .img {
+    float: left;
+    width: 30vw;
+    height: 100%;
+    margin-left: 3vw;
+}
+
+.header .img image {
+    width: 30vw;
+    border-radius: 50%;
+}
+
+.header .info {
+    float: right;
+    width: 44vw;
+    height: 30vw;
+    overflow: hidden;
+}
+
+.header .info .li-box {
+    margin-top: calc((30vw - 4.5vw * 3) / 6);
+}
+
+.header .info text {
+    display: inline-block;
+    font-size: 4.5vw;
+}
+
+.header .info .key {
+    width: 15vw;
+    margin: 0 3vw;
+    font-weight: 700;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.header .info .val {
+    color: #111;
+    margin-left: 2vw;
+}

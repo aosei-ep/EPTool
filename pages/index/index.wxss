@@ -5,29 +5,28 @@
 }
 
 .header {
-    font-size: 5vh;
+    font-size: 8vw;
     padding: 5vh 0;
 }
 
 .list_box {
     width: 90vw;
-    /* background-color: skyblue; */
 }
 
 .list_box .box {
     display: block;
     float: left;
-    width: 47%;
-    height: 6vh;
-    background-color: #eee;
-    font-size: 2.5vh;
+    width: 40vw;
+    height: 12vw;
+    background-color: #fff;
+    font-size: 4.5vw;
     text-align: center;
-    line-height: 6vh;
-    border-radius: 2vh;
-    margin-top: 20px;
-    box-shadow: 0 0 1vh .3vh rgba(0, 0, 0, .3);
+    line-height: 12vw;
+    border-radius: 3.5vw;
+    margin-top: 4vh;
+    box-shadow: 0 0 2.4vw .5vw rgba(0, 0, 0, .3);
 }
 
 .list_box .box:nth-child(2n) {
-    margin-left: 6%;
+    margin-left: 10vw;
 }

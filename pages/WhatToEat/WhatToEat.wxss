@@ -1,16 +1,11 @@
 /* pages/WhatToEat/WhatToEat.wxss */
-page {
-    background-color: #f8f8f8;
-    /* background-color: pink; */
-}
-
 .header {
     display: block;
     width: 50vw;
     height: 5vh;
     padding: 4vh;
     margin: 1vh auto;
-    font-size: 4vh;
+    font-size: 8vw;
     font-weight: 700;
     line-height: 5vh;
     text-align: center;
@@ -21,8 +16,8 @@ page {
     width: 90vw;
     margin: 2vh 5vw;
     min-height: 220px;
-    border-radius: 2vh;
-    box-shadow: 0 0 2vh .5vh rgba(0, 0, 0, .3);
+    border-radius: 5vw;
+    box-shadow: 0 0 4vw 1.4vw rgba(0, 0, 0, .3);
     background-color: #fff;
 }
 
@@ -36,10 +31,9 @@ page {
 .main_box .res {
     float: left;
     width: 90%;
-    height: 6vh;
+    height: 12vw;
     margin: 0 auto;
     padding: 5%;
-    /* background-color: #fff; */
 }
 
 .main_box .foods {
@@ -47,27 +41,25 @@ page {
     width: 90%;
     /* height: 250px; */
     padding: 5%;
-    /* background-color: skyblue; */
 }
 
 .main_box .res .res_food,
 .main_box .foods .add_food {
     float: left;
     width: 60%;
-    height: calc(6vh - 2px);
+    height: calc(12vw - 2px);
     padding: 0 calc((10% - 1px) / 2);
-    line-height: 6vh;
+    line-height: 12vw;
     background-color: #fff;
     border: 1px solid #808080;
     border-right: 0;
-    border-radius: 1.5vh 0 0 1.5vh;
-    box-shadow: .3vh 0 1vh .2vh rgba(0, 0, 0, .3);
-    font-size: 2.3vh;
+    border-radius: 3vw 0 0 3vw;
+    box-shadow: .5vw 0 1.7vw .7vw rgba(0, 0, 0, .3);
+    font-size: 4.5vw;
 }
 
 .main_box .foods .add_food {
     overflow: hidden;
-    /* background-color: slateblue; */
 }
 
 .main_box .res .res_food .food {
@@ -82,22 +74,22 @@ page {
     max-width: 16%;
     overflow: hidden;
     margin-left: 4%;
-    font-size: 1.5vh;
+    font-size: 2.8vw;
 }
 
 .main_box .res .res_btn,
 .main_box .foods .add_btn {
     float: right;
     width: 30%;
-    height: 6vh;
+    height: 12vw;
     padding: 0;
-    line-height: 6vh;
+    line-height: 12vw;
     background-color: #eee;
-    border-radius: 0 1.5vh 1.5vh 0;
+    border-radius: 0 3vw 3vw 0;
     border: 1px solid #808080;
     border-left: 0;
-    box-shadow: .7vh 0 1vh .2vh rgba(0, 0, 0, .3);
-    font-size: 2.3vh;
+    box-shadow: 1.3vw 0 1.7vw .7vw rgba(0, 0, 0, .3);
+    font-size: 4.5vw;
 }
 
 .main_box .foods .list_foods {
@@ -109,21 +101,21 @@ page {
 .main_box .foods .li_food {
     float: left;
     width: 40%;
-    height: 4.5vh;
-    margin: .7vh 5%;
-    font-size: 2.2vh;
-    line-height: 4.5vh;
+    height: 9vw;
+    margin: 1.8vw 5%;
+    font-size: 4.2vw;
+    line-height: 9vw;
     text-align: center;
-    border-radius: 1vh;
-    background-color: #f0f0f0;
-    box-shadow: 0 0 .5vh .1vh rgba(0, 0, 0, .3);
+    border-radius: 2.5vw;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 1.7vw .2vw rgba(0, 0, 0, .3);
 }
 
 .main_box .foods .li_food .f {
     display: block;
     float: left;
     width: 76%;
-    height: 4.5vh;
+    height: 9vw;
     margin-left: 4%;
 }
 
