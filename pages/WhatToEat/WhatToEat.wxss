@@ -60,9 +60,6 @@
     border-radius: 3vw 0 0 3vw;
     box-shadow: .5vw 0 1.7vw .7vw rgba(0, 0, 0, .3);
     font-size: 4.5vw;
-}
-
-.main-box .foods .add-food {
     overflow: hidden;
 }
 
@@ -70,7 +67,6 @@
     display: block;
     float: left;
     max-width: 80%;
-    overflow: hidden;
 }
 
 .main-box .res .res-food .num {
