@@ -50,7 +50,7 @@ Page({
             });
         } else {
             data.foods.push(data.add_food);
-            console.log(data.foods)
+            // console.log(data.foods)
             this.setData({
                 foods: data.foods
             });

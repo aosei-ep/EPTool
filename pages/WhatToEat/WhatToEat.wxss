@@ -117,6 +117,7 @@
     width: 76%;
     height: 9vw;
     margin-left: 4%;
+    overflow: hidden;
 }
 
 .main_box .foods .li_food .del {
