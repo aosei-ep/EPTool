@@ -11,7 +11,7 @@
         </view>
         <view class="hr"></view>
         <view class="foods" id="foods">
-            <input type="text" class="add-food" id="add-food" placeholder="请输入需添加的食物" model:value="{{add_food}}" bindblur="getValue" bindconfirm="addFood"/>
+            <input type="text" class="add-food" id="add-food" placeholder="请输入需添加的食物" model:value="{{add_food}}" bindinput="getFood" bindconfirm="addFood"/>
             <button class="add_btn" bindtap="addFood">添加</button>
             <view class="list-foods">
                 <view class="li-food" wx:for="{{foods}}" wx:key="id">

@@ -60,6 +60,15 @@ Page({
     },
 
     /**
+     * 
+     * @param {*} event 
+     */
+    getFood(event) {
+        // console.log(event.detail);
+        this.data.add_food = event.detail.value;
+    },
+
+    /**
      * @description 获取add_food input框中的内容
      * @param {*} event 
      */
