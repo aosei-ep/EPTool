@@ -42,7 +42,6 @@ Page({
                 duration: 2000     // 显示的时间2s
             });
         } else if (data.foods.indexOf(data.add_food) != -1) {
-            data.add_food = "";
             wx.showToast({
                 title: "已经存在",  // 显示的标题
                 icon: "error",     // 显示的图标
@@ -50,15 +49,14 @@ Page({
             });
         } else {
             data.foods.push(data.add_food);
-            // console.log(data.foods)
             this.setData({
                 foods: data.foods
             });
-            data.add_food = "";
         }
+        data.add_food = "";
         this.setData({
             add_food: data.add_food
-        })
+        });
     },
 
     /**

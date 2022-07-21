@@ -1,4 +1,8 @@
 /* pages/WhatToEat/WhatToEat.wxss */
+.container {
+    padding-top: 0;
+}
+
 .header {
     display: block;
     width: 50vw;
@@ -11,7 +15,7 @@
     text-align: center;
 }
 
-.main_box {
+.main-box {
     float: left;
     width: 90vw;
     margin: 2vh 5vw;
@@ -21,14 +25,14 @@
     background-color: #fff;
 }
 
-.main_box .hr {
+.main-box .hr {
     float: left;
     width: 94%;
     margin: 0 3%;
     border-top: 1px dashed #808080;
 }
 
-.main_box .res {
+.main-box .res {
     float: left;
     width: 90%;
     height: 12vw;
@@ -36,15 +40,15 @@
     padding: 5%;
 }
 
-.main_box .foods {
+.main-box .foods {
     float: left;
     width: 90%;
     /* height: 250px; */
     padding: 5%;
 }
 
-.main_box .res .res_food,
-.main_box .foods .add_food {
+.main-box .res .res-food,
+.main-box .foods .add-food {
     float: left;
     width: 60%;
     height: calc(12vw - 2px);
@@ -58,18 +62,18 @@
     font-size: 4.5vw;
 }
 
-.main_box .foods .add_food {
+.main-box .foods .add-food {
     overflow: hidden;
 }
 
-.main_box .res .res_food .food {
+.main-box .res .res-food .food {
     display: block;
     float: left;
     max-width: 80%;
     overflow: hidden;
 }
 
-.main_box .res .res_food .num {
+.main-box .res .res-food .num {
     float: right;
     max-width: 16%;
     overflow: hidden;
@@ -77,8 +81,8 @@
     font-size: 2.8vw;
 }
 
-.main_box .res .res_btn,
-.main_box .foods .add_btn {
+.main-box .res .res_btn,
+.main-box .foods .add_btn {
     float: right;
     width: 30%;
     height: 12vw;
@@ -92,13 +96,13 @@
     font-size: 4.5vw;
 }
 
-.main_box .foods .list_foods {
+.main-box .foods .list-foods {
     float: left;
     width: 100%;
     margin-top: 1.5vh;
 }
 
-.main_box .foods .li_food {
+.main-box .foods .li-food {
     float: left;
     width: 40%;
     height: 9vw;
@@ -111,7 +115,7 @@
     box-shadow: 0 0 1.7vw .2vw rgba(0, 0, 0, .3);
 }
 
-.main_box .foods .li_food .f {
+.main-box .foods .li-food .f {
     display: block;
     float: left;
     width: 76%;
@@ -120,7 +124,7 @@
     overflow: hidden;
 }
 
-.main_box .foods .li_food .del {
+.main-box .foods .li-food .del {
     display: block;
     float: right;
     width: 20%;
