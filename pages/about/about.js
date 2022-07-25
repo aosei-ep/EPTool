@@ -7,7 +7,7 @@ Page({
     data: {
         info: [
             {key: "小程序", val: "EPTool"},
-            {key: "版本号", val: "1.0.1"},
+            {key: "版本号", val: "1.0.2"},
             {key: "作者", val: "Ep"},
         ],
     },
