@@ -21,7 +21,7 @@
     margin: 2vh 5vw;
     min-height: 220px;
     border-radius: 5vw;
-    box-shadow: 0 0 4vw 1.4vw rgba(0, 0, 0, .3);
+    box-shadow: 0 0 2vw .4vw rgba(0, 0, 0, .3);
     background-color: #fff;
 }
 
@@ -58,7 +58,7 @@
     border: 1px solid #808080;
     border-right: 0;
     border-radius: 3vw 0 0 3vw;
-    box-shadow: .5vw 0 1.7vw .7vw rgba(0, 0, 0, .3);
+    /* box-shadow: .5vw 0 1.7vw .7vw rgba(0, 0, 0, .3); */
     font-size: 4.5vw;
     overflow: hidden;
 }
@@ -89,7 +89,7 @@
     border-radius: 0 3vw 3vw 0;
     border: 1px solid #808080;
     border-left: 0;
-    box-shadow: 1.3vw 0 1.7vw .7vw rgba(0, 0, 0, .3);
+    /* box-shadow: 1.3vw 0 1.7vw .7vw rgba(0, 0, 0, .3); */
     font-size: 4.5vw;
 }
 
@@ -109,7 +109,7 @@
     text-align: center;
     border-radius: 2.5vw;
     background-color: #f9f9f9;
-    box-shadow: 0 0 1.7vw .2vw rgba(0, 0, 0, .3);
+    box-shadow: 0 0 .7vw .1vw rgba(0, 0, 0, .3);
 }
 
 .main-box .foods .li-food .f {

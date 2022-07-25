@@ -24,9 +24,10 @@
     line-height: 12vw;
     border-radius: 3.5vw;
     margin-top: 4vh;
-    box-shadow: 0 0 2.4vw .5vw rgba(0, 0, 0, .3);
+    margin-left: 2vw;
+    box-shadow: 0 0 1.2vw .2vw rgba(0, 0, 0, .3);
 }
 
 .list_box .box:nth-child(2n) {
-    margin-left: 10vw;
+    margin-left: 6vw;
 }
