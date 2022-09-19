@@ -6,6 +6,7 @@ Page({
     data: {
         tools: [
             {name: "吃什么", url: "/pages/WhatToEat/WhatToEat"},
+            {name: "反应游戏", url: "/pages/StopWatch/StopWatch"},
         ]
     },
     

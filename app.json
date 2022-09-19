@@ -3,6 +3,7 @@
         "pages/index/index",
         "pages/about/about",
         "pages/WhatToEat/WhatToEat",
+        "pages/StopWatch/StopWatch",
         "pages/logs/logs"
     ],
     "window":{

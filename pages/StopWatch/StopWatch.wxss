@@ -1,0 +1,63 @@
+/* pages/StopWatch/StopWatch.wxss */
+.main {
+    width: 90vw;
+    height: 40vh;
+    margin: 10vh auto;
+}
+
+.light-box {
+    width: 90vw;
+    height: 20vw;
+    margin: 0 auto 5vh;
+}
+
+.light-box .light {
+    float: left;
+    width: 18%;
+    height: 90%;
+    margin: 3% 1%;
+    background-color: #222;
+    border-radius: 2vw;
+    box-shadow: 0 0 2vw .5vw rgba(0, 0, 0, .3);
+}
+
+.light-box .light view[class^="light"] {
+    width: 80%;
+    height: 12.96vw;
+    margin: 2.5vw auto;
+    background-color: green;
+    border-radius: 8.1vw;
+}
+
+.time {
+    width: 50vw;
+    height: 15vw;
+    margin: 0 auto 5vh;
+    background-color: #b0ea69;
+    border-radius: 5vw;
+    text-align: center;
+    line-height: 15vw;
+    font-size: 6vw;
+    transition: all .4s ease-in-out;
+}
+
+.btn {
+    overflow: hidden;
+    width: 30vw;
+    height: 12vw;
+    margin: 30vh auto 0;
+    padding: 1vw;
+    transition: all .5s ease-in-out;
+}
+
+.btn .start, .btn .stop, .btn .reset {
+    width: 30vw;
+    height: 12vw;
+    background-color: #d3f08a;
+    margin: 0 auto 1vh;
+    padding: 0;
+    border: none;
+    border-radius: 3vw;
+    line-height: 12vw;
+    transition: all .5s ease-in-out;
+}

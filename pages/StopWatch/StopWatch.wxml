@@ -1,0 +1,16 @@
+<!--pages/StopWatch/StopWatch.wxml-->
+<view class="main">
+    <view class="light-box">
+        <view class="light"><view class="light1" id="light1" style="background-color: {{light[0]}};"></view></view>
+        <view class="light"><view class="light2" id="light2" style="background-color: {{light[1]}};"></view></view>
+        <view class="light"><view class="light3" id="light3" style="background-color: {{light[2]}};"></view></view>
+        <view class="light"><view class="light4" id="light4" style="background-color: {{light[3]}};"></view></view>
+        <view class="light"><view class="light5" id="light5" style="background-color: {{light[4]}};"></view></view>
+    </view>
+    <view class="time" id="time" style="{{timeOnly}}">{{time}}</view>
+    <view class="btn" style="{{stopOnly[0]}}">
+        <button class="start" bindtap="start" style="transform: translate({{dist[0]}});">开始</button>
+        <button class="stop" bindtap="stop" style="transform: translate({{dist[1]}}); {{stopOnly[1]}}">停止</button>
+        <button class="reset" bindtap="reset" style="transform: translate({{dist[2]}});">重置</button>
+    </view>
+</view>
