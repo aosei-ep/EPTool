@@ -2,7 +2,7 @@
 .main {
     width: 90vw;
     height: 40vh;
-    margin: 10vh auto;
+    margin: 5vh auto 10vh;
 }
 
 .light-box {
@@ -59,5 +59,40 @@
     border: none;
     border-radius: 3vw;
     line-height: 12vw;
+    transition: all .5s ease-in-out;
+}
+
+.about {
+    width: 98vw;
+    height: 12vw;
+    margin: 1vw auto;
+    overflow: hidden;
+    border-top-right-radius: 6vw;
+    border-bottom-right-radius: 6vw;
+    /* background-color: pink; */
+}
+
+.about .about-btn {
+    float: right;
+    width: 12vw;
+    height: 12vw;
+    padding: 0;
+    border-radius: 50%;
+    border: 1px solid #777;
+    color: #777;
+    line-height: 12vw;
+    font-size: 6vw;
+    z-index: 999;
+}
+
+.about .about-main {
+    width: 78.4vw;
+    height: 8vw;
+    padding: 1vw;
+    font-size: 3vw;
+    overflow: hidden;
+    border-radius: 2vw;
+    margin: .5vw 0 0 2vw;
+    border: 1px solid #777;
     transition: all .5s ease-in-out;
 }

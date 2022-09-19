@@ -14,14 +14,15 @@ Page({
         light: ['#222', '#222', '#222', '#222', '#222'],
         stopWatch: null,    // 秒表开始前的等待时间
         startTime: null,    // 五盏红灯熄灭时间(0~5秒)
+        timeStamp: null,    // 所用时间
         timedTime: null,    // settimeout id
-        timeStamp: null,
         timedInter: null,   // setinterval id
         timedReset: null,   // setintreset id
         timeStampStart: null,   // 开始时间的时间戳
         // stopOnly: "background-color: rgba(0,0,0,0);color: rgba(0,0,0,0);"
         stopOnly: ['', 'border-radius:3vw;line-height:12vw;'],     // 停止按钮大小
-        timeOnly: 'font-size:6vw;'    // 时间文字大小
+        timeOnly: 'font-size:6vw;',    // 时间文字大小
+        tipOnly: 'transform:translate(90vw,3vw);height:1vw;width:30vw;font-size:1vw;'
     },
 
     /**
@@ -65,7 +66,7 @@ Page({
         data.timeStamp = new Date().getTime() - data.timeStampStart;
         let s = parseInt(data.timeStamp / 1000);
         let ms = data.timeStamp % 1000;
-        data.time = "00:" + s.toString().padStart(2, '0') + ":" + ms.toString().padStart(3, '0');
+        data.time = "00:" + s.toString().padStart(2, '0') + "." + ms.toString().padStart(3, '0');
         data.stopOnly = ['', 'border-radius:3vw;line-height:12vw;'];
         this.setData({
             judge: data.judge,
@@ -114,7 +115,7 @@ Page({
         if (data.judge == 0) return;
         if (data.timedInter != null) return;
         data.startTime = parseInt(Math.random() * 5 / 0.001);
-        console.log(data.startTime);
+        // console.log(data.startTime);
         var time = '00:00.000';
         this.setData({
             time: time
@@ -129,7 +130,7 @@ Page({
                 } else {
                     let s = parseInt(i / 1000);
                     let ms = i % 1000;
-                    time = "00:" + s.toString().padStart(2, '0') + ":" + ms.toString().padStart(3, '0');
+                    time = "00:" + s.toString().padStart(2, '0') + "." + ms.toString().padStart(3, '0');
                 }
                 this.setData({
                     time: time
@@ -162,6 +163,18 @@ Page({
         data.timedReset = setTimeout(() => {
             this.resetTime();
         }, 5000 + data.startTime)
+    },
+
+    tip() {
+        var data = this.data;
+        if (data.tipOnly == '') {
+            data.tipOnly = 'transform:translate(90vw,3vw);height:1vw;width:30vw;font-size:1vw;';
+        } else {
+            data.tipOnly = '';
+        }
+        this.setData({
+            tipOnly: data.tipOnly
+        });
     },
 
     /**

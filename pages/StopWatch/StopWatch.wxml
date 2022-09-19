@@ -1,4 +1,8 @@
 <!--pages/StopWatch/StopWatch.wxml-->
+<view class="about">
+    <button class="about-btn" bindtap="tip">?</button>
+    <view class="about-main" style="{{tipOnly}}">点击开始后，五盏红灯依次亮起，当五盏红灯熄灭，可以停止计时。</view>
+</view>
 <view class="main">
     <view class="light-box">
         <view class="light"><view class="light1" id="light1" style="background-color: {{light[0]}};"></view></view>
